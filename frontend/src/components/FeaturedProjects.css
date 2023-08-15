@@ -1,0 +1,14 @@
+.carousel-wrapper {
+  height: 100vh;
+}
+
+.carousel-item,
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}

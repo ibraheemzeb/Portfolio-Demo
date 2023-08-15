@@ -1,0 +1,37 @@
+@media only screen and (max-width: 767px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-item {
+    width: 100%;
+  }
+  .grid-item:nth-child(2) {
+    order: -1;
+  }
+}
+
+.text-white {
+  color: rgb(255, 255, 255);
+}
+
+.card-hover:hover {
+  opacity: 0.7;
+}
+
+.card-hover:hover .position-absolute {
+  opacity: 1;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.position-absolute .btn {
+  margin-top: 1rem;
+}
